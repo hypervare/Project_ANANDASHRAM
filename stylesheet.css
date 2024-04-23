@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Saira Condensed", sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    gap: 755px;
+    z-index: 999;
+    padding: 1% 2%;
+    border: 0.1rem solid black;
+}
+.navbar-logo-area p{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 500;
+}
+.navbar-logo-area span{
+    color: rgb(0, 255, 0);
+}
+.navbar-nav-area{
+    display: flex;
+    padding-top: 18px;
+    gap: 45%;
+}
+.navbar-nav-area a{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.navbar-nav-area a:hover{
+    padding: 5px;
+    transition: 0.3s;
+}
+.main-showcase{
+    display: flex;
+    padding: 0 10px;
+    padding-top: 160px;
+    justify-content: space-between;
+}
+.main-showcase img{
+    border-bottom: 0.1rem solid black;
+}
+.showcase-content-area{
+    width: 340px;
+}
+.content-head p{
+    font-size: 80px;
+    font-weight: 100;
+}
+.content-body p{
+    font-size: 22px;
+}
+.text-content{
+    text-align: center;
+    padding: 15%;
+}
+.text-content-head p{
+    font-size: 29px;
+}
+.btn{
+    margin: 2rem 0;
+}
+.btn span{
+    color: black;
+    padding: 3px 40px;
+    font-size: 23px;
+    border-radius: 0.4rem;
+    border: 0.1rem solid black;
+}
+.btn span:active{
+    background-color: rgb(243, 241, 239);
+}
+.flip1-card {
+    background-color: transparent;
+    perspective: 1000px;
+  }
+
+  .flip1-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip1-card:hover .flip1-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip1-card-front, .flip1-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip1-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip1-card-back {
+    background-color: #dddada;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+  }
+.sponsers-area{
+    margin: 41px 0;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.sponsers-img{
+    border-top: 0.1rem solid black;
+}
+.side-img{
+    padding: 40px 34px;
+    width: 300px;
+}
+.sponser-content-area{
+    padding: 34px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.sch p{
+    font-size: 78px;
+    font-weight: 200;
+}
+.smi{
+    display: flex;
+    padding-top: 110px;
+    justify-content: space-between;
+}
+.outer-about-content{
+    margin-bottom: 145px;
+}
+.about-conatiner{
+    display: flex;
+    margin: 33px 0;
+}
+.about-content{
+    margin-top: 93px;
+    padding: 0 34px;
+}
+.about-head p{
+    font-size: 48px;
+    font-weight: 300;
+}
+.about-img img{
+    border-top: 0.1rem solid black;
+}
+.about-des{
+    width: 100%;
+}
+.about-des p{
+    font-size: 18px;
+}
+.about-container2{
+    padding: 0 34px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+.about-sort-head{
+    text-align: center;
+}
+.about-sort-head p{
+    font-size: 38px;
+}
+.about-sort-decs{
+    text-align: center;
+}
+.about-sort-decs p{
+    font-size: 16px;
+}
+.public-work{
+    text-align: center;
+    /* border-top: 0.1rem solid black; */
+    padding: 45px 0;
+    margin: 100px 0;
+    margin-bottom: 135px;
+}
+.pw-part2 img{
+    padding-top: 45px;
+    width: 560px;
+}
+.pw-part2 p{
+    font-size: 31px;
+}
+.contact-section{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+.contact-head{
+    text-align: center;
+}
+.contact-head p{
+    font-size: 48px;
+}
+.contact-container{
+    text-align: center;
+    width: 500px;
+    padding: 50px;
+}
+.contact-img img{
+    width: 100px;
+}
+.contact-container p{
+    font-size: 23px;
+}
+.footer{
+    padding: 15px;
+}
+.footer-content{
+    border-top: 0.1rem solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.fl-part{
+    display: flex;
+}
+.fl-part p{
+    margin-top: 45px;
+    font-size: 17px;
+}
+.fr-part{
+    text-align: center;
+    margin-top: 23px;
+}
+.fr-part p{
+    font-size: 20px;
+}
+.fr-part a{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    color: black;
+}
+.fr-part span{
+    font-size: 17px;
+}
