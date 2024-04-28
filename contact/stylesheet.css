@@ -1,0 +1,17 @@
+.contact-container{
+    text-align: center;
+    padding: 100px;
+}
+.contact-content{
+    margin-top: 140px;
+}
+.contact-head p{
+    font-size: 45px;
+}
+.content-decs{
+    margin: 30px 0;
+    height: 100%;
+}
+.content-decs p{
+    font-size: 20px;
+}
